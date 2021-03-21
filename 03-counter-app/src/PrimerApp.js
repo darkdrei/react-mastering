@@ -10,7 +10,7 @@ const PrimeraApp = ({ saludo, subtitulo}) =>{
     return( 
         <>
            <h1>{ saludo}</h1>
-            <h3>{ subtitulo }</h3>
+            <p>{ subtitulo }</p>
         </>
     );
 }
