@@ -27,9 +27,8 @@ describe('Validación del componente Counter app', () => {
         //Validar un parafo
         const textoParrafo = wrapper.find('h2').text().trim();
         expect( textoParrafo ).toBe( `${ value }` );
-
     });
-    
+
     test('Debe incrementar con el botón +1 ', () => {
         const bt1 = wrapper.find('button').at(0);
         console.log(bt1.html());  
